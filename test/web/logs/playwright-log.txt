@@ -1,0 +1,34 @@
+{"level":30,"time":"2021-11-18T11:54:32.339Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Listening on 60694"}
+{"level":30,"time":"2021-11-18T11:54:33.090Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-11-18T11:54:33.099Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-11-18T11:54:33.306Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Video path: undefined"}
+{"level":30,"time":"2021-11-18T11:54:33.307Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}
+{"level":30,"time":"2021-11-18T11:54:34.117Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with css=img[src=\"/static/img/vue-logo.png\"] in page."}
+{"level":30,"time":"2021-11-18T11:54:34.146Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Retrieved text for element css=img[src=\"/static/img/vue-logo.png\"] containing "}
+{"level":30,"time":"2021-11-18T11:54:34.148Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with id=emailId in page."}
+{"level":30,"time":"2021-11-18T11:54:34.158Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Retrieved text for element id=emailId containing "}
+{"level":30,"time":"2021-11-18T11:54:34.161Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with id=login in page."}
+{"level":30,"time":"2021-11-18T11:54:34.172Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Retrieved text for element id=login containing ENTRAR"}
+{"level":30,"time":"2021-11-18T11:54:34.175Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with [placeholder=\"nome@gmail.com\"] in page."}
+{"level":30,"time":"2021-11-18T11:54:34.186Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with [placeholder=\"senha\"] in page."}
+{"level":30,"time":"2021-11-18T11:54:34.683Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-11-18T11:54:34.683Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-18T11:54:34.683Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}
+{"level":30,"time":"2021-11-18T11:54:34.695Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-11-18T11:54:34.696Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-18T11:54:34.696Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}
+{"level":30,"time":"2021-11-18T11:54:35.339Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-11-18T11:54:35.348Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-11-18T11:54:35.544Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Video path: undefined"}
+{"level":30,"time":"2021-11-18T11:54:35.545Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}
+{"level":30,"time":"2021-11-18T11:54:36.262Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with id=emailId in page."}
+{"level":30,"time":"2021-11-18T11:54:36.291Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with id=passId in page."}
+{"level":30,"time":"2021-11-18T11:54:36.308Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with text=ENTRAR in page."}
+{"level":30,"time":"2021-11-18T11:54:36.410Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with div > .info in page."}
+{"level":30,"time":"2021-11-18T11:54:36.760Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Retrieved text for element div > .info containing William"}
+{"level":30,"time":"2021-11-18T11:54:36.929Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-11-18T11:54:36.929Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-18T11:54:36.929Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}
+{"level":30,"time":"2021-11-18T11:54:36.938Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-11-18T11:54:36.938Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-18T11:54:36.938Z","pid":19404,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211118 08:54:31.648" rpa="false" schemaversion="2">
+<suite id="s1" name="Login" source="C:\Users\William\PycharmProjects\RoboWeek5\test\web\login.robot">
+<test id="s1-t1" name="LoginPageElements Test">
+<kw name="New Browser" library="Browser">
+<arg>chromium</arg>
+<arg>False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20211118 08:54:32.432" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\Users\\William\\PycharmProjects\\RoboWeek5\\test\\web\\logs\\browser\\traces\\9c902e3a-934c-42de-9626-94c4942e3a9a"}</msg>
+<msg timestamp="20211118 08:54:33.087" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\Users\\William\\PycharmProjects\\RoboWeek5\\test\\web\\logs\\browser\\traces\\9c902e3a-934c-42de-9626-94c4942e3a9a"}</msg>
+<status status="PASS" starttime="20211118 08:54:32.432" endtime="20211118 08:54:33.087"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>http://ninjaplus-web:5000/login</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<msg timestamp="20211118 08:54:34.107" level="INFO">Successfully initialized new page object and opened url: http://ninjaplus-web:5000/login</msg>
+<msg timestamp="20211118 08:54:34.107" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20211118 08:54:33.088" endtime="20211118 08:54:34.107"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<arg>equal</arg>
+<arg>Ninja+</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" starttime="20211118 08:54:34.108" endtime="20211118 08:54:34.115"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>css=img[src="/static/img/vue-logo.png"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" starttime="20211118 08:54:34.116" endtime="20211118 08:54:34.147"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>id=emailId</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" starttime="20211118 08:54:34.147" endtime="20211118 08:54:34.160"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>id=login</arg>
+<arg>==</arg>
+<arg>ENTRAR</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" starttime="20211118 08:54:34.160" endtime="20211118 08:54:34.174"/>
+</kw>
+<kw name="Get Attribute Names" library="Browser">
+<arg>[placeholder="nome@gmail.com"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns all HTML attribute names of an element as a list.</doc>
+<status status="PASS" starttime="20211118 08:54:34.174" endtime="20211118 08:54:34.184"/>
+</kw>
+<kw name="Get Attribute Names" library="Browser">
+<arg>[placeholder="senha"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns all HTML attribute names of an element as a list.</doc>
+<status status="PASS" starttime="20211118 08:54:34.185" endtime="20211118 08:54:34.193"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20211118 08:54:34.678" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20211118 08:54:34.194" endtime="20211118 08:54:34.678"/>
+</kw>
+<status status="PASS" starttime="20211118 08:54:32.429" endtime="20211118 08:54:34.679"/>
+</test>
+<test id="s1-t2" name="Login Test">
+<kw name="New Browser" library="Browser">
+<arg>chromium</arg>
+<arg>False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20211118 08:54:34.748" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\Users\\William\\PycharmProjects\\RoboWeek5\\test\\web\\logs\\browser\\traces\\8e091583-67b5-4ee2-aad7-23fbaf80d277"}</msg>
+<msg timestamp="20211118 08:54:35.333" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\Users\\William\\PycharmProjects\\RoboWeek5\\test\\web\\logs\\browser\\traces\\8e091583-67b5-4ee2-aad7-23fbaf80d277"}</msg>
+<status status="PASS" starttime="20211118 08:54:34.748" endtime="20211118 08:54:35.334"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>http://ninjaplus-web:5000/login</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<msg timestamp="20211118 08:54:36.260" level="INFO">Successfully initialized new page object and opened url: http://ninjaplus-web:5000/login</msg>
+<msg timestamp="20211118 08:54:36.260" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20211118 08:54:35.337" endtime="20211118 08:54:36.260"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>id=emailId</arg>
+<arg>madoka32@ninjaplus.com</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20211118 08:54:36.261" level="INFO">Fills the text 'madoka32@ninjaplus.com' in the given field.</msg>
+<status status="PASS" starttime="20211118 08:54:36.260" endtime="20211118 08:54:36.290"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>id=passId</arg>
+<arg>madoka123</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20211118 08:54:36.291" level="INFO">Fills the text 'madoka123' in the given field.</msg>
+<status status="PASS" starttime="20211118 08:54:36.290" endtime="20211118 08:54:36.306"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>text=ENTRAR</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20211118 08:54:36.306" endtime="20211118 08:54:36.408"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>div &gt; .info</arg>
+<arg>==</arg>
+<arg>William</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" starttime="20211118 08:54:36.409" endtime="20211118 08:54:36.762"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20211118 08:54:36.925" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20211118 08:54:36.762" endtime="20211118 08:54:36.925"/>
+</kw>
+<status status="PASS" starttime="20211118 08:54:34.741" endtime="20211118 08:54:36.926"/>
+</test>
+<status status="PASS" starttime="20211118 08:54:31.649" endtime="20211118 08:54:36.977"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
